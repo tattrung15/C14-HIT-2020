@@ -18,6 +18,7 @@ void Tinhbt(int n, float x)
     float tong = 1,mu=1;
     int gt=1;
     int dau = 1;
+
     for(int i=1; i<=n; ++i)
     {
         dau *=-1;
@@ -25,6 +26,7 @@ void Tinhbt(int n, float x)
         gt*=i;
         tong += dau*(mu+2)/gt;
     }
+
     cout << "A = " << tong;
 }
 
